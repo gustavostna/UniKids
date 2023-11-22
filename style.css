@@ -1,0 +1,78 @@
+.body{
+    background-color: antiquewhite;
+}
+
+.logo_menu{
+    width: 105px;
+   position: relative;
+   top: 5px;
+   left:50px;
+
+}
+
+.top-nav{
+    background-color: whitesmoke;
+    height: 150px;
+    position:static;
+    text-align
+    
+    
+}
+
+
+.formu2{
+    
+    width: 300px;
+    
+    position: relative;
+    top: 40px;
+    left: 490px;
+    
+}
+
+.row container{
+   display: inline;
+}
+
+.txth42{
+
+  color: #33CCFF;
+  text-shadow: 2px 2px 2px black;
+  font-family: sans-serif;
+}
+
+.txth1{
+
+    text-shadow: 4px 2px 2px black;
+}
+
+.txth4{
+    font-family: 'Segoe UI';
+    text-shadow: 2px 2px 2px black;
+}
+
+.page-footer{
+    background-color: #85B5FA;
+    position: relative;
+    top: 500px;
+}
+
+h5{
+    text-align: center;
+}
+
+#minhaImagem1, #minhaImagem2 {
+    display: none;
+}
+
+.cards_news{
+    display: inline-block;
+}
+
+#minhaLista {
+    display: none;
+}
+
+.cal{
+    text-align: center;
+}

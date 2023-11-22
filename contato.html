@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--link css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ 
+    <!--icons google fonts-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href='https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css' rel='stylesheet'>
+      <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
+
+</head>
+<body>
+
+
+    <nav class="top-nav">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo"><img class="logo_menu" src="slides/UniKids 01.svg" width="30%"></a>
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+           
+            
+            <ul class="lista right hide-on-med-and-down" id="fonte">
+                <li ><a  href="index.html"><strong style="color: black">Home</strong></a></li>
+                <li ><a  href="noticias.html"><strong style="color: black">Notícias</strong></a></li>
+                
+                <li ><a  href="calendario.html"><strong style="color: black">Calendário</strong></a></li>
+                <li ><a  href="contato.html"><strong style="color: black">Contato</strong></a></li>
+            </ul>
+          
+           
+            <ul class="sidenav" id="slide-out">
+                <li><a href="">Home</a></li>
+                <li><a href="">Infantil</a></li>
+                
+                <li><a href="">Calendário</a></li>
+                <li><a href="">Contato</a></li>
+ 
+            </ul>
+           
+         </div>
+    </nav>
+   
+
+
+ <!--formulario-->
+ <div class="formu2">
+  <h5>Dúvidas?</h5>
+    <form action="" method="get">
+        <fieldset>
+        <h5><stong>Entre em contato!</stong></h5>
+        <label>Nome</label>
+        <input type="text"><br>
+        <label>Email</label>
+        <input text="Email"><br>
+        <label>Assunto</label>
+        <input type="text"><br>
+        <label>Mensagem</label>
+        <textarea name="obs" rows="20" cols="10"></textarea>
+        <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <i class="material-icons right">send</i>
+          </button>
+          </fieldset>
+    </form>
+</div>
+
+
+   
+    
+
+
+<!--rodape-->
+
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Colégio UniKids</h5>
+        <p class="grey-text text-lighten-4">Construir o conhecimento, estimulando a criatividade, cidadania e solidariedade, formando jovens para a sociedade de hoje. Esssa é a nossa missão.</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">ENDEREÇO</h5>
+        <p>Av. Augusto Franco, 2340 - Siqueira Campos, Aracaju - SE, 49075-470</p>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="#!"><i class="left gg-instagram" style="width: 19px; height: 18px;"></i>Instagram</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!"><i class="left gg-facebook" ></i>Facebook</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!"><i class="material-icons">local_phone</i>&nbsp&nbsp&nbsp(79) 99999-9999</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <button onclick="mostrarLista()">Membros</button>
+
+  <ul id="minhaLista">
+    <li>Cauã Gabriel Callegari Miranda dos Santos</li>
+    <li>Ruan Oliveira Andrade</li>
+    <li>Gustavo Santana Barreto</li>
+  </ul>
+
+  <script>
+    function mostrarLista() {
+      document.getElementById("minhaLista").style.display = "block";
+    }
+    </script>
+
+  <div class="footer-copyright">
+    <div class="container">
+    Copyright © 2023 Colégio UniKids - Educar para cidadania
+    <a class="grey-text text-lighten-4 right" href="#!"></a>
+    </div>
+  </div>
+
+ 
+
+
+
+
+</footer>
+  
+  
+</body>
+</html>
